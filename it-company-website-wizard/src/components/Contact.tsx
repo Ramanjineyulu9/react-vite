@@ -100,7 +100,7 @@ const Contact = () => {
                     <Input 
                       id="firstName" 
                       name="firstName" 
-                      placeholder="" 
+                      placeholder="first name" 
                       className="mt-1" 
                       required 
                     />
@@ -110,7 +110,7 @@ const Contact = () => {
                     <Input 
                       id="lastName" 
                       name="lastName" 
-                      placeholder="" 
+                      placeholder="last name" 
                       className="mt-1" 
                       required 
                     />
@@ -155,7 +155,7 @@ const Contact = () => {
                   <Textarea 
                     id="message" 
                     name="message" 
-                    placeholder="Tell us about your project..." 
+                    placeholder="Big or small, your idea deserves to shine — let’s make it real."
                     className="mt-1 min-h-[120px]" 
                     required 
                   />
